@@ -1,0 +1,86 @@
+@media all and (max-width: 1200px) {
+  .sub__title {
+    width: 600px;
+  }
+  .main-text {
+    width: 600px;
+  }
+}
+@media all and (max-width: 1000px) {
+  .main-text {
+    text-align: start;
+  }
+  .sub__title {
+    text-align: start;
+    width: 400px;
+  }
+  .section__right {
+    display: none;
+  }
+  .carousel {
+    width: 100%;
+  }
+}
+@media all and (max-width: 800px) {
+  .sub__title {
+    display: none;
+  }
+  .main-text {
+    width: 300px;
+  }
+  .main__title {
+    font-size: 32px;
+  }
+  .text__title {
+    font-size: 28px;
+  }
+  .item__title {
+    font-size: 20px;
+  }
+  .item__title-2 {
+    font-size: 36px;
+  }
+  .item__description {
+    font-size: 16px;
+  }
+  .skill h1 {
+    font-size: 26px;
+  }
+  .skill-name {
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 600px) {
+  .soft-skills__title {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .hero img {
+    display: none;
+  }
+  .hero {
+    background-color: #2e2b2b;
+    height: 500px;
+  }
+}
+@media all and (max-width: 400px) {
+  .d1 {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+  }
+  .menu {
+    width: 256px;
+    left: -250px;
+  }
+  .title h1 {
+    font-size: 20px;
+  }
+  .list_menu a {
+    font-size: 14px;
+  }
+  .footer_text {
+    font-size: 20px;
+  }
+}
